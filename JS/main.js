@@ -36,71 +36,82 @@ $(".parallax-window").parallax({
   imageSrc: "./Images/Background/1920x999_bg1.jpg",
 });
 
+$( document ).ready(function() {
+  $('.slider-page-content').slick({
+      dots: false,
+      arrows:true,
+      nextArrow:"<button>OK</button>",
+      infinite: true,
+      speed: 200, 
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      pauseOnHover:true,
+    });
+});
 // $('.slider-content').slick({
 //   infinite: true,
 //   slidesToShow: 2,
 //   slidesToScroll: 2
 // });
-var slideIndex = 1;
-showDivs(slideIndex);
+// var slideIndex = 1;
+// showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs((slideIndex += n));
-}
+// function plusDivs(n) {
+//   showDivs((slideIndex += n));
+// }
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("slider-content");
-  if (n > x.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = x.length;
-  }
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  x[slideIndex - 1].style.display = "block";
-}
+// function showDivs(n) {
+//   var i;
+//   var x = document.getElementsByClassName("slider-content");
+//   if (n > x.length) {
+//     slideIndex = 1;
+//   }
+//   if (n < 1) {
+//     slideIndex = x.length;
+//   }
+//   for (i = 0; i < x.length; i++) {
+//     x[i].style.display = "none";
+//   }
+//   x[slideIndex - 1].style.display = "block";
+// }
 
 //button back to top
 // var offset = 300,
 //   offsetOpacity = 1200,
 //   scrollDuration = 700;
-(function () {
-  // Back to Top - by CodyHouse.co
-  var backTop = document.getElementsByClassName("button-totop")[0],
-    offset = 300, // browser window scroll (in pixels) after which the "back to top" link is shown
-    offsetOpacity = 1200, //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
-    scrollDuration = 700,
-    scrolling = false;
 
-  if (backTop) {
-    //update back to top visibility on scrolling
-    window.addEventListener("scroll", function (event) {
-      if (!scrolling) {
-        scrolling = true;
-        !window.requestAnimationFrame
-          ? setTimeout(checkBackToTop, 250)
-          : window.requestAnimationFrame(checkBackToTop);
-      }
-    });
-
-    //smooth scroll to top
-    backTop.addEventListener("click", function (event) {
-      event.preventDefault();
-      !window.requestAnimationFrame
-        ? window.scrollTo(0, 0)
-        : Util.scrollTo(0, scrollDuration);
-    });
+function toTop() {
+  $('html, body').animate({scrollTop:(0)}, '2000');
+}
+$(window).scroll(function (event) {
+  if(window.scrollY > 1400) {
+      $('.toTop').fadeIn()
   }
+  else {
+      $('.toTop').fadeOut()
+  } 
+})
 
-  function checkBackToTop() {
-    var windowTop = window.scrollY || document.documentElement.scrollTop;
-    windowTop > offset
-      ? Util.addClass(backTop, "cd-top--is-visible")
-      : Util.removeClass(backTop, "cd-top--is-visible cd-top--fade-out");
-    windowTop > offsetOpacity && Util.addClass(backTop, "cd-top--fade-out");
-    scrolling = false;
-  }
-})();
+$(document).ready(function(){
+ 
+  //Check to see if the window is top if not then display button
+  $(window).scroll(function(){
+ 
+   // Show button after 100px
+   var showAfter = 1000;
+   if ( $(this).scrollTop() > showAfter ) { 
+    $('.toTop').fadeIn();
+   } else { 
+    $('.toTop').fadeOut();
+   }
+  });
+  
+  //Click event to scroll to top
+  $('.toTop').click(function(){
+   $('html, body').animate({scrollTop : 0},800);
+   return false;
+  });
+  
+ });
