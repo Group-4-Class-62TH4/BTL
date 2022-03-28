@@ -2,9 +2,10 @@
   position: relative;
 }
 body {
-  padding-left: 0;
+  padding: 0;
   margin: 0;
   width: 100%;
+  overflow-x: hidden;
 }
 .header {
   height: 140px;
@@ -227,12 +228,12 @@ a.mad-logo {
 .background-right {
   text-align: right;
 }
-.img3 {
+.img3{
   margin-top: -530px;
   margin-left: 810px;
   z-index: 99;
 }
-.img2 {
+.img2{
   height: 500px;
   width: 602px;
   margin-top: -580px;
@@ -240,28 +241,28 @@ a.mad-logo {
   position: absolute;
   border: #ffffff solid 32px;
 }
-.img1 {
+.img1{
   margin-top: 35px;
   margin-left: 810px;
 }
-.background-left {
+.background-left{
   margin-top: -20px;
 }
-.title-menu {
+.title-menu{
   padding: absolute;
   text-align: center;
   margin-top: -450px;
 }
-.title-menu > h2 {
+.title-menu > h2{
   font-size: 3.75rem;
   line-height: 4.5rem;
   font-family: "Asap", sans-serif;
   font-family: "Satisfy", cursive;
 }
-.title-menu > p {
+.title-menu > p{
   font-size: 18px;
   line-height: 32px;
-  color: #7a7879;
+  color: #7A7879;
   text-decoration: none solid rgb(89, 87, 88);
   vertical-align: top;
   word-spacing: 0px;
@@ -269,7 +270,7 @@ a.mad-logo {
   font-family: "Asap", sans-serif;
   background-color: #fff;
 }
-.mad-form-tag {
+.mad-form-tag{
   color: #fff;
   margin-bottom: -20px;
   margin-left: 2px;
@@ -279,16 +280,16 @@ a.mad-logo {
   white-space: nowrap;
   margin-top: 0.5rem;
 }
-.mad-menu {
+.mad-menu{
   margin-top: 45px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-.header-menu {
+.header-menu{
   text-align: center;
 }
 
-.menu-active > a {
+.menu-active > a{
   font-weight: 700;
   color: #065f8f;
   margin-right: 2rem;
@@ -308,13 +309,14 @@ a.mad-logo {
   width: 576px;
   height: 88px;
 }
-.info-header {
+.info-header{
   display: flex;
 }
-.info-tag {
+.info-tag{
   text-align: left;
+
 }
-.info-tag > p {
+.info-tag > p{
   margin-top: 15px;
   color: #7a7879;
   font-size: 0.875rem;
@@ -322,29 +324,29 @@ a.mad-logo {
   line-height: 1rem;
   margin-bottom: 8px;
 }
-.info-tag > a {
+.info-tag > a{
   font-size: 12px;
   font-style: italic;
   line-height: 16px;
   color: #277500;
   text-decoration: none;
-}
-.info-title {
+} 
+.info-title{
   font-size: 18px;
   font-weight: 700;
-  color: #040a1c;
+  color: #040A1C;
   line-height: 24px;
 }
-.info-line {
+.info-line{
   height: 1.125rem;
   flex: 1;
   border-bottom: 2px dotted #7a7879;
   margin-left: 15px;
   margin-right: 15px;
 }
-.info-price {
+.info-price{
   font-size: 18px;
-  color: #040a1c;
+  color: #040A1C;
 }
 .list-menu {
   margin-top: 70px;
@@ -353,11 +355,11 @@ figure {
   text-align: left;
   margin-left: 45px;
 }
-.button-center {
+.button-center{
   text-align: center;
   margin-bottom: 100px;
 }
-.btn-center {
+.btn-center{
   font-family: "Asap", sans-serif;
   margin-top: 35px;
   padding: 1rem 2.5rem 1rem;
@@ -375,27 +377,28 @@ figure {
   text-decoration: none;
   transition: all 0.3s ease;
 }
-.btn-center:hover {
+.btn-center:hover{
   background-color: #59bdf7;
   color: black;
+  
 }
 .parallax-window {
   width: 100%;
-  min-height: 400px;
-  background: transparent;
-  padding-bottom: 54% !important;
+	min-height: 400px;
+	background: transparent;
+  padding-bottom: 54%!important;
   /* background-size: cover; */
 }
 
-.background-bottom_right {
+.background-bottom_right{
   text-align: right;
   margin-top: 230px;
 }
-.section-slider-title {
+.section-slider-title{
   position: relative;
-  margin-top: -700px;
+  margin-top: -700px;;
 }
-.section-slider-title > h2 {
+.section-slider-title > h2{
   font-size: 60px;
   text-align: center;
   font-family: "Asap", sans-serif;
@@ -406,72 +409,72 @@ figure {
 /* .slider-page-content{
   display: flex;
 } */
-.slider-content {
+.slider-content{
   /* padding-right: 123px;
   padding-left: 123px; */
   margin-top: 50px;
   display: flex;
 }
-.slider-content-left {
+.slider-content-left{
   width: 688px;
   margin-left: 32px;
 }
-.content-left-information {
+.content-left-information{
   padding: 0 70px;
   position: relative;
 }
 i.fa-solid.fa-star {
   font-size: 20px;
-  color: #f2a057;
+  color: #F2A057;
   position: relative;
   display: inline-block;
   margin-bottom: 2rem;
 }
-.slider-information > h2 {
+.slider-information > h2{
   font-family: "Asap", sans-serif;
   font-size: 24px;
   font-style: italic;
   font-weight: 700;
   line-height: 32px;
-  color: #00517e;
+  color: #00517E;
 }
-.slider-information > p {
+.slider-information > p{
   margin-top: 15px;
   font-family: "Asap", sans-serif;
   font-size: 18px;
   font-style: italic;
   line-height: 32px;
-  color: #00517e;
+  color: #00517E;
   height: 96px;
 }
-.slider-information-footer {
+.slider-information-footer{
   margin-top: 25px;
 }
-.slider-information-footer > h3 {
+.slider-information-footer > h3{
   font-family: "Asap", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 32px;
   color: #595758;
 }
-.slider-information-footer > span {
+.slider-information-footer > span{
   font-family: "Asap", sans-serif;
   font-size: 16px;
   line-height: 32px;
   font-style: italic;
-  color: #7a7879;
+  color: #7A7879;
 }
-.slider-content-right {
+.slider-content-right{
   width: 688px;
   margin-left: 32px;
 }
-.page-entity {
+.page-entity{
   position: relative;
   padding-bottom: 7.25rem;
   display: flex;
   margin-top: 7.25rem;
 }
-.entity-content {
+.entity-content{
   position: absolute;
   height: 520px;
   width: 620px;
@@ -480,10 +483,10 @@ i.fa-solid.fa-star {
   top: 100px;
   background: #f0faff;
   padding: 4.5rem;
-  transition: all 0.5s ease;
+  transition: all .5s ease;
   z-index: 1;
 }
-.entity-title > a {
+.entity-title > a{
   margin-bottom: 32px;
   font-family: "Asap", sans-serif;
   font-family: "Satisfy", cursive;
@@ -493,10 +496,10 @@ i.fa-solid.fa-star {
   text-decoration: none;
   color: #22406d;
 }
-.entity-title > a:hover {
-  border-bottom: 1px solid #ffffff;
+.entity-title > a:hover{
+  border-bottom: 1px solid #FFFFFF;
 }
-.entity-title > p {
+.entity-title > p{
   width: 424px;
   font-family: "Asap", sans-serif;
   font-size: 18px;
@@ -505,53 +508,49 @@ i.fa-solid.fa-star {
   color: #3c373d;
   margin-bottom: 42px;
 }
-a.entiry-icon {
+a.entiry-icon{
   font-family: "Asap", sans-serif;
   font-size: 18px;
   font-weight: 500;
   color: #22406d;
   text-decoration: none;
 }
-.squid{
-  height: 12px;
-  width: 30px;
-  font-size: 12px;
-}
-.page-entity-tow {
+.page-entity-tow{
   position: relative;
 }
-.page-entity:hover .entity-content {
-  background-color: #00283f;
+.page-entity:hover .entity-content{
+  background-color: #00283F;
 }
-.page-entity:hover .entity-title > a {
+.page-entity:hover .entity-title> a{
   color: #fff;
 }
-.page-entity:hover .entity-title > p {
+.page-entity:hover .entity-title> p{
   color: #fff;
 }
-.page-entity:hover .entiry-icon {
-  color: #6dcbff;
+.page-entity:hover .entiry-icon{
+  color: #6DCBFF;
 }
 
-.page-entity-tow:hover .entity-content-tow {
-  background-color: #00283f;
+
+.page-entity-tow:hover .entity-content-tow{
+  background-color: #00283F;
 }
-.page-entity-tow:hover .entity-title-tow > a {
+.page-entity-tow:hover .entity-title-tow> a{
   color: #fff;
 }
-.page-entity-tow:hover .entity-title-tow > p {
+.page-entity-tow:hover .entity-title-tow> p{
   color: #fff;
 }
-.page-entity-tow:hover .entiry-icon {
-  color: #6dcbff;
+.page-entity-tow:hover .entiry-icon{
+  color: #6DCBFF;
 }
-.entity-img-two {
+.entity-img-two{
   right: 0;
   position: absolute;
   text-align: right;
   margin-top: 200px;
 }
-.entity-content-tow {
+.entity-content-tow{
   position: absolute;
   height: 520px;
   width: 620px;
@@ -560,10 +559,10 @@ a.entiry-icon {
   top: 50px;
   background: #f0faff;
   padding: 4.5rem;
-  transition: all 0.5s ease;
+  transition: all .5s ease;
   z-index: 1;
 }
-.entity-title-tow > a {
+.entity-title-tow > a{
   margin-bottom: 32px;
   font-family: "Asap", sans-serif;
   font-family: "Satisfy", cursive;
@@ -573,7 +572,7 @@ a.entiry-icon {
   text-decoration: none;
   color: #22406d;
 }
-.entity-title-tow > p {
+.entity-title-tow > p{
   width: 424px;
   font-family: "Asap", sans-serif;
   font-size: 18px;
@@ -583,26 +582,26 @@ a.entiry-icon {
   margin-bottom: 42px;
 }
 
-.background-map-left {
+.background-map-left{
   text-align: left;
   margin-top: 588px;
 }
-.google-map-page {
+.google-map-page{
   margin-top: -210px;
   position: absolute;
   padding-left: 50px;
   padding-right: 50px;
 }
-iframe {
+iframe{
   height: 296px;
   width: 1168px;
 }
-.google-map-icon {
+.google-map-icon{
   width: 1168px;
   text-align: center;
   margin-top: -200px;
 }
-.google-map-calendar {
+.google-map-calendar{
   margin-top: -40px;
   position: relative;
   margin-left: 970px;
@@ -610,7 +609,7 @@ iframe {
   width: 448px;
   background: #36657f;
 }
-.calendar-img {
+.calendar-img{
   position: absolute;
   top: 0;
   right: 0;
@@ -619,7 +618,7 @@ iframe {
   overflow: hidden;
   z-index: 1;
 }
-.calendar-info > h4 {
+.calendar-info > h4{
   padding-top: 65px;
   margin-left: 80px;
   font-family: "Asap", sans-serif;
@@ -628,7 +627,7 @@ iframe {
   line-height: 48px;
   color: #ffffff;
 }
-.calendar-time > ul {
+.calendar-time > ul{
   font-family: "Asap", sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -640,44 +639,45 @@ iframe {
 .calendar-time > ul > li {
   margin-bottom: 10px;
 }
-.page-map-contract {
+.page-map-contract{
   margin-top: 170px;
   padding-left: 150px;
 }
-.contract-info > h4 {
+.contract-info > h4{
   font-family: "Asap", sans-serif;
   font-family: "Satisfy", cursive;
   font-size: 36px;
-  color: #040a1c;
+  color: #040A1C;
 }
-.contract-list {
+.contract-list{
   margin-top: 20px;
 }
-.contract-list > ul > li {
+.contract-list > ul >li{
   font-family: "Asap", sans-serif;
-  font-size: 18px;
+  font-size:  18px;
   line-height: 34px;
   color: #595758;
 }
-.contract-list > ul > li > a {
+.contract-list > ul >li > a {
   text-decoration: none;
-  color: #00517e;
+  color: #00517E;
 }
-.parallax-page {
+.parallax-page{
   /* background-size: cover; */
   position: relative;
   width: 100%;
   min-height: 400px;
-  background: transparent;
+	background: transparent;
+
 }
-.parallax-title {
+.parallax-title{
   margin-left: 420px;
   top: 100px;
   position: absolute;
   text-align: center;
   justify-content: center;
 }
-.parallax-title > h2 {
+.parallax-title > h2{
   font-family: "Asap", sans-serif;
   font-family: "Satisfy", cursive;
   font-size: 60px;
@@ -685,74 +685,72 @@ iframe {
   letter-spacing: -0.5px;
   margin-bottom: 30px;
 }
-.parallax-icon {
+.parallax-icon{
   padding-left: 70px;
   padding-right: 50px;
 }
-.parallax-logo {
+.parallax-logo{
   margin-top: 100px;
   padding-left: 70px;
   padding-right: 50px;
 }
-footer {
+footer{
   position: relative;
   z-index: -10;
   background-repeat: no-repeat;
-  background: linear-gradient(
-    to bottom,
-    rgba(226, 245, 255, 0) 0%,
-    rgba(226, 245, 255, 1) 100%
-  );
+  background: linear-gradient(to bottom, rgba(226,245,255,0) 0%,rgba(226,245,255,1) 100%);
 }
-.footer-infomation {
+.footer-infomation{
   text-align: center;
   padding: 8rem 0 0 0;
 }
-.footer-logo {
+.footer-logo{
   margin-bottom: 40px;
 }
-.social-icon > ul {
+.social-icon > ul{
   display: flex;
   justify-content: center;
   line-height: 32px;
 }
-.social-icon > ul > li {
+.social-icon > ul> li{
   font-size: 21px;
 }
-.social-icon > ul > li > a {
+.social-icon > ul> li> a{
   font-size: 32px;
-  color: #577b91;
+  color:  #577b91;
   padding-right: 40px;
 }
-.social-icon > ul > li > a:hover {
-  color: #00517e;
+.social-icon > ul > li > a:hover{
+  color: #00517E;
 }
-.nav-bar {
+.nav-bar{
   margin-top: 70px;
   margin-bottom: 30px;
 }
-.nav-bar > ul {
+.nav-bar > ul{
   display: flex;
   justify-content: center;
-}
-.nav-bar > ul > li {
+} 
+.nav-bar > ul > li{
   font-family: "Asap", sans-serif;
   font-size: 18px;
   line-height: 32px;
   color: #00517f;
   padding-right: 30px;
 }
-.nav-bar > ul > li > a {
+.nav-bar > ul > li > a{
   text-decoration: none;
+  
 }
-.nav-bar > ul > li > a:hover {
+.nav-bar > ul > li > a:hover{
   border-bottom: 2px solid black;
+  
 }
-.copyrights {
+.copyrights{
   font-family: "Asap", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #7a7879;
+  color: #7A7879;
   padding-right: 10px;
   /* padding-bottom: 100px; */
   margin-bottom: 200px;
@@ -760,15 +758,11 @@ footer {
 .footer-background {
   margin-top: -150px;
 }
-
-  color: #232831;
-  background: #e0e1e3;
-  white-space: nowrap;
-  border: none;
-  margin-left: 1400px;
-  width: 56px;
-  height: 56px;
-  z-index: 999;
+.toTop{
+  position:fixed;
+  bottom: 10vh;
+  right: 10vw;
+  z-index: 9999;
 }
 
 

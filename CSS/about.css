@@ -1,0 +1,362 @@
+body{
+    overflow-x: hidden;
+}
+.header-about-item{
+    padding: 50px;
+}
+.phone{
+    font-family: 'Asap', sans-serif;
+    line-height: 32px;
+    color: #fff;
+    vertical-align: top;
+    float: left;
+    padding: 10px;
+    font-size: 23px;
+}
+.header-logo{
+    text-align: center;
+}
+.social-icon > ul{
+    display: flex;
+    justify-content: center;
+    line-height: 32px;
+    float: right;
+  }
+.social-icon > ul> li{
+    font-size: 21px;
+    list-style: none;
+}
+.social-icon > ul> li> a{
+    font-size: 24px;
+    color:  #595758;
+    padding-right: 40px;
+    transition: all 0.3s ease;
+}
+.social-icon > ul > li > a:hover{
+    color: #fff;
+}
+.header-background{
+    z-index: -1;
+    position: absolute;
+    margin-top: -180px;
+    margin-left: -8px;
+    filter: brightness(50%);
+    width: 100%;
+}
+.mad-navigation > ul {
+    display: flex;
+    justify-content: center;
+    line-height: 32px;
+}
+.mad-navigation > ul > li > a{
+padding-right: 40px;
+}
+.menu-item{
+    list-style: none;
+}
+.about{
+    text-decoration-thickness: 3px;
+    color: #fff;
+    font-family: 'Asap', sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-underline-offset: 10px;
+    font-weight: bold;
+}
+.menu-item .home,.menu,.reservation{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Asap', sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.menu-item > a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+#sectionid {
+    padding: 0px 0px 0px 40px;
+    height: 180px;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    transition: all 0.3s ease;
+  }
+.mad-title{
+    display: flex;
+    justify-content: center;
+    line-height: 32px;
+    color: #fff;
+    font-family: 'Asap', sans-serif;
+    font-style: oblique;
+    margin-top: 150px;
+}
+.home-title{
+    color: #fff;
+    padding-right: 16px;
+    text-decoration: none;
+}
+.home-title:hover{
+    text-decoration: underline;
+}
+.mad-page-title{
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    margin: 0px;
+    margin-top: 20px;
+}
+.content-element{
+    padding-top: 200px;
+}
+.content-1{
+    color:black;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    margin: 0px;
+}
+.content-our-story{
+    column-count: 2;
+    font-family: 'Asap', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #595758;
+    padding: 10px;
+    margin-top: 50px;
+}
+.video-wrapper{
+    text-align: center;
+    padding: 120px;
+}
+.content-2{
+    color: #fff;;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    margin: 50px;
+    margin-top: 150px;
+}
+.mad-offer{
+    background-color: #00517f;
+    margin: 0px;
+    padding: 50px;
+}
+.offer{
+    column-count: 3;
+    text-align: center;
+    color: #fff;
+    font-family: 'Asap', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+}
+.find-more{
+    color: #6dcbff;
+    font-family: 'Asap', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 100px;
+}
+.find-more:hover{
+    text-decoration: underline;
+}
+.squid{
+    height: 12px;
+    width: 30px;
+}
+.section-slider-title{
+    padding-top: 130px;
+}
+.section-slider-title > h2{
+    font-size: 60px;
+    text-align: center;
+    font-family: "Asap", sans-serif;
+    font-family: "Satisfy", cursive;
+    letter-spacing: -0.5px;
+    line-height: 72px;
+}
+.slider-content{
+    padding: 50px;
+    display: flex;
+}
+.slider-content-left{
+    width: 688px;
+    margin-left: 32px;
+}
+.content-left-information{
+    padding: 0 70px;
+    position: relative;
+}
+i.fa-solid.fa-star {
+    font-size: 20px;
+    color: #F2A057;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+.slider-information > h2{
+    font-family: "Asap", sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 32px;
+    color: #00517E;
+}
+.slider-information > p{
+    margin-top: 15px;
+    font-family: "Asap", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 32px;
+    color: #00517E;
+    height: 96px;
+}
+.slider-information-footer{
+    margin-top: 25px;
+}
+.slider-information-footer > h3{
+    font-family: "Asap", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #595758;
+}
+.slider-information-footer > span{
+    font-family: "Asap", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-style: italic;
+    color: #7A7879;
+}
+.slider-content-right{
+    width: 688px;
+    margin-left: 32px;
+}
+.parallax-page{
+    /* background-size: cover; */
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    background: transparent;
+  
+  }
+  .parallax-window {
+    width: 100%;
+    min-height: 400px;
+    background: transparent;
+    padding-bottom: 54% !important;
+    /* background-size: cover; */
+  }
+.parallax-title{
+    margin-left: 550px;
+    top: 300px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+  }
+.parallax-title > h2{
+    font-family: "Asap", sans-serif;
+    font-family: "Satisfy", cursive;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.5px;
+    margin-bottom: 30px;
+}
+.btn-big:hover {
+    background-color: #59bdf7;
+    color: black;
+  }
+  .btn-big {
+    font-size: 1rem;
+    color: #ffffff;
+    height: 63px;
+    width: 250px;
+    margin-left: 5px;
+    letter-spacing: 0.1px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1rem;
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+    background: #00517f;
+    border: none;
+    margin-top: 4px;
+    transition: all 0.5s ease;
+  }
+
+#page-footer{
+    background: url(../Images/images-about/footer_bottom_img.png) no-repeat #00283f bottom center;
+    background-size: contain;
+    padding: 128px 0;
+    color: #e2f5ff;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Asap', sans-serif;
+    line-height: 32px;
+}
+#page-footer .widget{
+    float: left;
+}
+#page-footer .row{
+    padding: 0 4%;
+}
+.widget .widget-tittle{
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: -0.5px;
+    font-family: 'Satisfy', cursive;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+.widget li{
+    margin-bottom: 16px;
+}
+.widget a{
+    text-decoration: none;
+    color: #6dcbff;;
+}
+.social-icon-1 > ul {
+    display: flex;
+    justify-content: center;
+    line-height: 32px;
+}
+.social-icon-1 > ul > li {
+    font-size: 21px;
+    padding: 16px 16px 0;
+}
+.social-icon-1 > ul > li > a {
+    color: #00517e;
+    font-size: 32px;
+
+}
+.social-icon-1 > ul > li > a:hover {
+    color: #6dcbff;
+}
+.copyrights{
+    margin-top: 68px;
+    font-size: 16px;
+}
+.copyrights a{
+    text-decoration: none;
+}
+.copyrights a:hover{
+    text-decoration: underline;
+}
+.col-third{
+    width: calc(100%/3);
+}
+.vr-list a:hover{
+    text-decoration: underline;
+}
+.direction:hover{
+    text-decoration: underline;
+}
