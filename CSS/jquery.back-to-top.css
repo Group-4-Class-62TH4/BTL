@@ -8,13 +8,7 @@
 	transition-property: all;
 	width: 56px;
   	height: 56px;
-  	color: #232831;
-  	background: #e0e1e3;
-  	z-index: 999;
-  
 }
-
-.bck.bck-on {visibility: visible;}
 .bck-on.fade{opacity: 1;}
 
 .rightToLeft {right : -50px;}
