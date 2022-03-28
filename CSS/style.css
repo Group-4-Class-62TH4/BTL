@@ -387,6 +387,7 @@ figure {
 }
 
 .background-bottom_right {
+  max-width: 100%;
   text-align: right;
   margin-top: 230px;
 }
@@ -582,6 +583,7 @@ a.entiry-icon {
   margin-top: 588px;
 }
 .google-map-page {
+  max-width:100%;
   margin-top: -210px;
   position: absolute;
   padding-left: 50px;
