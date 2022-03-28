@@ -1,0 +1,34 @@
+.bck {
+	position: fixed;
+	bottom: 300px;
+	right: 42px;
+	visibility: hidden;
+	line-height: 50px;
+	text-align:center;
+	transition-property: all;
+	width: 56px;
+  	height: 56px;
+  	color: #232831;
+  	background: #e0e1e3;
+  	z-index: 999;
+  
+}
+
+.bck.bck-on {visibility: visible;}
+.bck-on.fade{opacity: 1;}
+
+.rightToLeft {right : -50px;}
+
+.bck-on.rightToLeft{right: 1rem;}
+
+.bottomToTop {bottom: -50px;}
+
+.bck-on.bottomToTop {bottom:1rem;}
+
+.bck-leftToRight {left: -50px;}
+
+.bck-on.leftToRight {left:1rem;}
+
+.topToBottom {top: -50px;}
+
+.bck-on.topToBottom {top:1rem;}
