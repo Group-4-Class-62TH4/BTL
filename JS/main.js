@@ -30,6 +30,15 @@ function scrollFunction() {
     document.getElementById("sectionid").style.background = "none";
   }
 }
+
+document.getElementById('btn-open').onclick = function(){
+  document.getElementById("navigation").style.display = "block"
+};
+document.getElementById('x-mark').onclick = function(){
+  document.getElementById("navigation").style.display = "none"
+};
+
+
 // Parallax
 $(".parallax-window").parallax({
   imageSrc: "./Images/Background/1920x616_img1.jpg",
@@ -37,5 +46,6 @@ $(".parallax-window").parallax({
 $(".parallax-window").parallax({
   imageSrc: "./Images/Background/1920x999_bg1.jpg",
 });
+
 
 
