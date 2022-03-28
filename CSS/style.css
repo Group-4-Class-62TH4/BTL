@@ -2,9 +2,11 @@
   position: relative;
 }
 body {
-  padding: 0;
+  padding-left: 0;
   margin: 0;
   width: 100%;
+  overflow-X: hidden;
+  overflow-y: initial !important;
 }
 .header {
   height: 140px;
@@ -511,6 +513,11 @@ a.entiry-icon {
   color: #22406d;
   text-decoration: none;
 }
+.squid{
+  height: 12px;
+  width: 30px;
+  font-size: 12px;
+}
 .page-entity-tow {
   position: relative;
 }
@@ -755,10 +762,9 @@ footer {
   margin-top: -150px;
 }
 .top {
-  --offset: 500px;
+  --offset: 50px;
 
   position: sticky;
-  bottom: 300px;
   place-self: end;
   margin-top: calc(100vh + var(--offset));
   text-decoration: none;
