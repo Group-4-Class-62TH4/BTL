@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./CSS/reset.css">
   <link rel="stylesheet" href="./CSS/grid.css" />
   <link rel="stylesheet" href="./CSS/style.css" />
+  <link rel="stylesheet" href="./CSS/jquery.back-to-top.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
     integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,6 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Asap&family=Satisfy&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
@@ -334,8 +336,8 @@
           </div>
         </div>
       </div>
-      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      <!-- <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button> -->
     </div>
     <!--Entity-->
     <div class="page-entity">
@@ -509,7 +511,7 @@
             </li>
             <li>
               <a href="">
-                <i class="fa fa-tripadvisor" style="font-size:32px"></i>
+                <i class="fab fa-tripadvisor" style="font-size:32px"></i>
               </a>
             </li>
             <li>
@@ -556,12 +558,7 @@
         <img src="./Images/Background/footer_bottom_img_2.png" alt="" style="width: 100%; margin-top: -200px ; transform: scale(1,1); color: #9fcce4">
       </div>
     </footer>
-    
-    <button class="toTop" onclick= "toTop()">
-      <span>
-        <i class="fa-solid fa-angle-up" style="font-size: 22px"></i>
-      </span>
-    </button>
+    <a href="#" class="bck"></a> 
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -576,7 +573,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js" integrity="sha512-QDsjSX1mStBIAnNXx31dyvw4wVdHjonOwrkaIhpiIlzqGUCdsI62MwQtHpJF+Npy2SmSlGSROoNWQCOFpqbsOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./JS/main.js"></script>
-  
+	<script src="./JS/jquery.back-to-top.js"></script>
+	<script>
+
+	$(function(){
+
+			
+		$('.bck').backToTop();		
+
+	});
+	
+	</script>
 </body>
 
 </html>

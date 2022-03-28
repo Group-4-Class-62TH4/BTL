@@ -5,6 +5,7 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
+  overflow-x: hidden;
 }
 .header {
   height: 140px;
@@ -115,6 +116,7 @@ button.btn-item:hover::after {
   background: #00517f;
   border: none;
   margin-top: 4px;
+  transition: all 0.5s ease;
 }
 .form-icon {
   position: relative;
@@ -762,43 +764,5 @@ footer{
   right: 10vw;
   z-index: 9999;
 }
-/* #btn-backtotop{
-  width: 56px;
-  height: 56px;
-  padding: 0;
-  text-align: center;
-  position: fixed;
-  z-index: 999;
-  right: 3%;
-  top: 60%;
-  color: #232831;
-  background: #e0e1e3;
-  border: none;
-} */
-/* .cd-top--is-visible { 
-  visibility: visible;
-  opacity: 1;
-}
-
-.cd-top--fade-out { 
-  opacity: .5;
-} */
-/* .toTop{
-  width: 56px;
-  height: 56px;
-  padding: 0;
-  text-align: center;
-  position: fixed;
-  z-index: 999;
-  right: 3%;
-  top: 60%;
-  color: #232831;
-  background: #e0e1e3;
-  border: none;
-  display: none;
-} */
-/* i.fa-solid.fa-angle-up {
-  margin-top: 17px;
-} */
 
 
