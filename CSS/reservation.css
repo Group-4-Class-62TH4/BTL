@@ -17,7 +17,13 @@
 .fl{
     float: left;
 }
-
+.dicoration{
+    text-decoration: underline;
+    text-underline-offset: 5px !important;
+}
+body {
+    overflow-x: hidden;
+}
 
 #page-wrapper{
     overflow: hidden;
@@ -37,6 +43,7 @@
     text-align: center;
     height: 544px;
 }
+
 #sectionid{
     /* margin-left: -5px; */
     padding: 0px 40px 0px 40px;
@@ -77,6 +84,10 @@
 .section-item a i{
     font-size: 18px;
 }
+.nav-item:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
 .nav{
     text-align: center;
     font-size: 16px;
@@ -93,6 +104,10 @@
 .header-content{
     color: #fff;
     margin-top: 150px;
+}
+.breadcrumb-path:hover a{
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 .breadcrumb-path{
     color: #e2f5ff;
@@ -113,6 +128,12 @@
 /* Content */
 #page-content{
     text-align: center;
+}
+.background-content{
+    position: absolute;
+    right: -50px;
+    top: 470px;
+    z-index: -1;
 }
 .reservation{
     padding: 144px 16px;
@@ -194,7 +215,7 @@
 
 /* Footer */
 #page-footer{
-    background: url(../Images/Reveration/footer_bottom_img.png) no-repeat #00283f bottom center;
+    background: url(../Images/Reservation/footer_bottom_img.png) no-repeat #00283f bottom center;
     background-size: contain;
     padding: 128px 0;
     color: #e2f5ff;
@@ -213,6 +234,11 @@
     font-family: 'Satisfy', cursive;
     line-height: 48px;
     margin-bottom: 16px;
+}
+.vr-list li:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    cursor: pointer;
 }
 .widget li{
     margin-bottom: 16px;
@@ -244,4 +270,8 @@
 }
 .copyrights a{
     text-decoration: none;
+}
+.copyrights:hover a{
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
