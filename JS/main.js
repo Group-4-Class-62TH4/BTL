@@ -38,42 +38,4 @@ $(".parallax-window").parallax({
   imageSrc: "./Images/Background/1920x999_bg1.jpg",
 });
 
-$(document).ready(function () {
-  $(".slider-page-content").slick({
-    dots: false,
-    arrows: true,
-    nextArrow: "<button>OK</button>",
-    infinite: true,
-    speed: 200,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    pauseOnHover: true,
-  });
-});
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("slider-content");
-  if (n > x.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = x.length;
-  }
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  x[slideIndex - 1].style.display = "block";
-}
 
-function toTop() {
-  $("html, body").animate({ scrollTop: 0 }, "2000");
-}
-$(window).scroll(function (event) {
-  if (window.scrollY > 1400) {
-    $(".toTop").fadeIn();
-  } else {
-    $(".toTop").fadeOut();
-  }
-});
