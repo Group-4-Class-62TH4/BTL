@@ -1,3 +1,4 @@
+// hearder-slider
 var slideIndex = 0;
 showSlides();
 
@@ -15,6 +16,7 @@ function showSlides() {
   setTimeout(showSlides, 9000); // Change image every 2 seconds
 }
 
+// Section id
 window.onscroll = function () {
   scrollFunction();
 };
@@ -28,27 +30,12 @@ function scrollFunction() {
     document.getElementById("sectionid").style.background = "none";
   }
 }
-
+// Parallax
 $(".parallax-window").parallax({
   imageSrc: "./Images/Background/1920x616_img1.jpg",
 });
 $(".parallax-window").parallax({
   imageSrc: "./Images/Background/1920x999_bg1.jpg",
 });
-
-// $( document ).ready(function() {
-//   $('.slider-page-content').slick({
-//       dots: false,
-//       arrows:true,
-//       nextArrow:"<button>OK</button>",
-//       infinite: true,
-//       speed: 200, 
-//       slidesToShow: 2,
-//       slidesToScroll: 1,
-//       autoplay: true,
-//       autoplaySpeed: 2000,
-//       pauseOnHover:true,
-//     });
-// });
 
 
