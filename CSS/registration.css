@@ -1,0 +1,28 @@
+body{
+    background-image: url(../Images/Login/background-regis.png);
+    height: 100vh;
+    overflow: hidden;
+}
+.btn-back{
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.form-regis{
+    color: black;
+    padding: 100px;
+    font-size: 25px;
+    margin-top: 50px;
+
+}
+.username,.pass,.email{
+    font-size: 20px;
+    margin: 10px;
+   border-radius: 5px;
+}
+.btn-regis{
+    font-size: 20px;
+    margin: 30px;
+    width: 100px;
+}

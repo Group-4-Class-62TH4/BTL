@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="CSS/registration.css">
+</head>
+<body>
+    <button class="btn-back">Back to Admin</button>
+    <form class="form-regis" action="">
+        <h1>Registration Form</h1>
+        <div class="row">
+            <div class=" col">
+                User Name:
+            </div>
+            <div class="col">
+                <input type="text" name="txtUserName" id="txtUserName" class="username" required>
+                <span id="statusOfUserName"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col">
+                Password:
+            </div>
+            <div class="col">
+                <input type="password" name="txtPassword" id="txtPassword" class="pass">
+                <span id="statusOfPassword"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col">
+                Comfirm Password:
+            </div>
+            <div class="col">
+                <input type="password" name="txtComfirmPassword" id="txtComfirmPassword" class="pass">
+                <span id="statusOfComfirmPassword"></span>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class=" col">
+                Email:
+            </div>
+            <div class="col">
+                <input type="text" name="txtEmail" id="txtEmail" class="email" required>
+                <span id="statusOfEmail"></span>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class=" col">
+                <input type="submit" name="btnRegister" id="btnRegister" class="btn-regis" value="Register">
+            </div>
+        </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/registration.js"></script>
+</body>
+</html>
