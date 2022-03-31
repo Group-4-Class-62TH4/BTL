@@ -30,7 +30,7 @@ function Login() {
            document.cookie = "username=" + val.username + ";expires=" + date;
            document.cookie = "permission=" + val.permission + ";expires=" + date;
            if (val.permission == "admin") {
-               location.href = "index.html";
+               location.href = "userManage.html";
            } 
        } else {
            alert("Vui long nhap lai Username hoac Password");

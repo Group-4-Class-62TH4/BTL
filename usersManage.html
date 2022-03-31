@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Management</title>
+    <link rel="stylesheet" href="./CSS/user.css">
+    <link rel="stylesheet" href="./CSS/grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="page-wrapper">
+        <!--navbar-->
+        <div class="navbar">
+            <h2>Users Management</h2>
+            <div class="navbar-list">
+                <ul>
+                    <li>
+                        <a href="admin.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="usersManage.html" style="border-bottom: 2px solid black;">USER</a>
+                    </li>
+                    <li>
+                        <a href="menu-admin.html">MENU</a>
+                    </li>
+                    <li>
+                        <a href="oder-admin.html">ORDER</a>
+                    </li>
+                    <li>
+                        <a href="login.html">LOGOUT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="user-info">
+            <input class="number" type="text" placeholder="1">
+            <input class="username" type="text" placeholder = "username">
+            <input class="email" type="email" placeholder = "email"> 
+            <input class="password" type="password" placeholder = "password">
+            <div class="user-control">
+                <button class="btn-add">Add</button>
+                <button class="btn-read">Read</button>
+                <button class="btn-update">Update</button>
+                <button class="btn-delete">Delete</button>
+            </div>
+        </div>
+        <table class="table-user">
+            <tr>
+                <th>#</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </table>\
+        <table class="table-info">
+            <tr>
+                <th>1</th>
+                <th style="text-align: center;">admin</th>
+                <th>admin@</th>
+                <th>123</th>
+                <th><i class="fa-solid fa-pen-to-square"></i></th>
+                <th><i class="fa-solid fa-trash"></i></th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

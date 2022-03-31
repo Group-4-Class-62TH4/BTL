@@ -1,0 +1,146 @@
+body{
+    overflow-x: hidden;
+    overflow-y: initial !important;
+    margin: 0 !important;
+    padding: 0;
+    width: 100vw;
+    background-color: #f8f9fa;
+}
+.page-wrapper{
+    margin: 0 !important;
+    padding: 0;
+    width: 100vw;
+}
+.navbar{
+    margin-top: -37px;
+    height: 100px;
+    background: radial-gradient(circle, rgba(93,94,98,1) 0%, rgba(235,236,236,1) 100%);
+}
+.navbar h2{
+    font-family: "Asap", sans-serif;
+    font-family: "Satisfy", cursive;
+    font-size: 45px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.navbar li{
+    margin-top: -80px;
+    padding-right: 40px;
+}
+.navbar a{
+    font-family: "Asap", sans-serif;
+    color: #040716;
+    text-decoration: none
+}
+.user-info{
+    margin-top: 60px;
+    margin-left: 300px;
+}
+input{
+    width: 60vw;
+    height: 35px;
+    border-radius: 5px;
+}
+.number{
+    background-color: #ebecec;
+    margin-bottom: 10px;
+}
+.username{
+    margin-bottom: 10px;
+}
+.email{
+    margin-bottom: 10px;
+}
+.password{
+    margin-bottom: 10px;
+}
+.user-control{
+    width: 60vw;
+    text-align: center;
+}
+
+.btn-add{
+    background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
+}
+.btn-add{
+    font-family: "Asap", sans-serif;
+    margin: 30px;
+    padding: 5px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    /* display: block; */
+}
+.btn-add:hover ,.btn-read:hover, .btn-update:hover, .btn-delete:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-read{
+    font-family: "Asap", sans-serif;
+    background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%);
+    margin: 30px;
+    padding: 5px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+}
+.btn-update{
+    font-family: "Asap", sans-serif;
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+    margin: 30px;
+    padding: 5px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+}
+.btn-delete{
+    font-family: "Asap", sans-serif;
+    background-image: linear-gradient(to right, #D31027 0%, #EA384D  51%, #D31027  100%);
+    margin: 30px;
+    padding: 5px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+}
+
+.table-user{
+    margin-top: 10px;
+    margin-left: 300px;
+    height: 40px;
+    width: 60vw;
+    background-color: rgba(93,94,98,1);
+}
+.table-user th{
+    color: #fff;
+}
+.table-info{
+    margin-left: 300px;
+    /* width: 60vw; */
+}
+.table-info th{
+    padding-right: 135px;
+    text-align: left;
+}
