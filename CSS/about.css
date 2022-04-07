@@ -1,5 +1,5 @@
 body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .header-about-item{
     padding: 50px;
@@ -9,7 +9,6 @@ body{
     line-height: 32px;
     color: #fff;
     vertical-align: top;
-    float: left;
     padding: 10px;
     font-size: 23px;
 }
@@ -20,7 +19,6 @@ body{
     display: flex;
     justify-content: center;
     line-height: 32px;
-    float: right;
   }
 .social-icon > ul> li{
     font-size: 21px;
@@ -35,14 +33,78 @@ body{
 .social-icon > ul > li > a:hover{
     color: #fff;
 }
-.header-background{
-    z-index: -1;
-    position: absolute;
-    margin-top: -180px;
-    margin-left: -8px;
-    filter: brightness(50%);
-    width: 100%;
+#page-header{
+    background-image: linear-gradient(0, rgba(0,33,50,0.6), rgba(0,33,50,0.6)),
+    url(../Images/Reservation/1920x544_bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 544px;
 }
+/* mini-menu */
+.navbar {
+    display: none;
+    overflow: hidden;
+    font-family: 'Asap', sans-serif;
+  }
+  
+  .navbar a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    overflow: hidden;
+  }
+  .bars{
+    padding: 25px;
+    background-color: #57a2cc;
+    
+  }
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .mini-about{
+    background-color: #00517f;
+  }
+  .dropdown-content {
+    display: none;
+   text-align: center;
+    margin-top: 18px;
+    /* position: absolute; */
+    background-color: #00283f;
+    z-index: -1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 30px 0px 30px 0px;
+    text-decoration: none;
+    display: block;
+    /* text-align: center; */
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #00517f;
+  }
+  
+  .show {
+    display: block;
+  }
+/* end mini menu */
+
+
 .mad-navigation > ul {
     display: flex;
     justify-content: center;
@@ -132,9 +194,16 @@ padding-right: 40px;
     padding: 10px;
     margin-top: 50px;
 }
+.story-1{
+    margin-left: 260px;
+    margin-top: 0px;
+}
 .video-wrapper{
     text-align: center;
     padding: 120px;
+}
+.player-video{
+    width: 1000px; height: 600px;
 }
 .content-2{
     color: #fff;;
@@ -326,6 +395,7 @@ i.fa-solid.fa-star {
 }
 .social-icon-1 > ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     line-height: 32px;
 }

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="CSS/about.css">
     <link rel="stylesheet" href="CSS/grid.css">
     <link rel="stylesheet" href="CSS/jquery.back-to-top.css">
+    <link rel="stylesheet" href="CSS/responsive-about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
         integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -25,70 +26,84 @@
 
 <body>
     <!--Start:Section-->
-    <div id="header-about grid wide">
-        <div class="header-about-item row">
-            <div class="phone l-4" style="font-size: 1.125rem;"><i class="fa-solid fa-phone"></i> +1 800 603 6035</div>
-            <div class="header-logo l-4">
-                <a href="index.html" class="about-logo">
-                    <img src="images/images-about/logo.png">
-                </a>
+    <div id="page-header">
+        <div id="header-about grid wide">
+            <div class="header-about-item row">
+                <div class="phone l-4" style="font-size: 1.125rem;"><i class="fa-solid fa-phone"></i> +1 800 603 6035</div>
+                <div class="header-logo l-4">
+                    <a href="index.html" class="about-logo">
+                        <img src="images/images-about/logo.png">
+                    </a>
+                </div>
+                <div class="social-icon l-4">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-tripadvisor"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
             </div>
-            <div class="social-icon l-4">
-                <ul>
-                    <li>
-                        <a href="">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
+        </div>
+        <!--End:Section-->
+    
+    <div class="navbar">
+        <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">
+            <a class="bars" href="#"><i class="fa-solid fa-bars"></i></a>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+            <a  href="index.html">HOME</a>
+            <a  href="menu.html">MENU</a>
+            <a  href="reservation.html">RESERVATION</a>
+            <a class="mini-about"  href="about.html">ABOUT US</a>
+        </div>
+        </div> 
+      </div>
+      
+        <!--Start:Sub Menu-->
+        <div id="sectionid">
+            <nav class="mad-navigation">
+                <ul class="mad-navigation-menu-item">
+                    <li class="menu-item">
+                        <a class="home" href="index.html">HOME</a>
                     </li>
-                    <li>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <li class="menu-item">
+                        <a class="menu" href="menu.html">MENU</a>
                     </li>
-                    <li>
-                        <a href="">
-                            <i class="fab fa-tripadvisor"></i>
-                        </a>
+                    <li class="menu-item">
+                        <a class="reservation" href="reservation.html">RESERVATION</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="about" href="about.html">ABOUT US</a>
                     </li>
                 </ul>
-            </div>
-
+            </nav>
         </div>
-        <div class="header-background">
-            <img src="images/images-about/1920x544_bg2.jpg" style="width: 1530px; height: 535px;">
-        </div>
+        <!--End:Sub Menu-->
+        <span class="mad-title">
+            <a class="home-title" href="index.html">Home</a>
+            <p>- &ensp;About Us</p>
+        </span>
+        <h1 class="mad-page-title">About Us</h1>
     </div>
-    <!--End:Section-->
-
-    <!--Start:Sub Menu-->
-    <div id="sectionid">
-        <nav class="mad-navigation">
-            <ul class="mad-navigation-menu-item">
-                <li class="menu-item">
-                    <a class="home" href="index.html">HOME</a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu" href="menu.html">MENU</a>
-                </li>
-                <li class="menu-item">
-                    <a class="reservation" href="reservation.html">RESERVATION</a>
-                </li>
-                <li class="menu-item">
-                    <a class="about" href="about.html">ABOUT US</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-    <!--End:Sub Menu-->
-    <span class="mad-title">
-        <a class="home-title" href="index.html">Home</a>
-        <p>- &ensp;About Us</p>
-    </span>
-    <h1 class="mad-page-title">About Us</h1>
-    <img src="images/images-about/top_half_right.png" style="position: absolute; right: -50px;">
+    
+    <img src="images/images-about/top_half_right.png" style="position: absolute;margin-top: -70px; right: -50px;">
     <div class="content-element">
         <h2 class="content-1">Our Story</h2>
     </div>
     <div class="content-our-story">
-        <p class="l-8" style="margin-left: 260px; margin-top: 0px;">Lorem ipsum dolor sit amet, consectetuer adipiscing
+        <p class="story-1 l-8">Lorem ipsum dolor sit amet, consectetuer adipiscing
             elit. Mauris fermentum dictum magna. Sed
             laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit.
             <br> <br>
@@ -106,7 +121,7 @@
     </div>
     <div class="video-wrapper">
         <iframe class="player-video" src="https://player.vimeo.com/video/42829407?title=0&byline=0&portrait=0"
-            style="width: 1000px; height: 600px;" frameborder="0"></iframe>
+             frameborder="0"></iframe>
     </div>
     <!--Start:Offer-->
     <div class="mad-offer">
@@ -226,7 +241,7 @@
                             Donec in velit vel ipsum auctor pulvinar.”</p>
                     </div>
                     <div class="slider-information-footer">
-                        <h3>Mark Johnson</h3>
+                        <h3> Mark Johnson</h3>
                         <span>New York City, New York</span>
                     </div>
                 </div>
@@ -349,7 +364,7 @@
                             </li>
                             <li>
                                 <a href="">
-                                    <i class="fab fa-tripadvisor"></i>
+                                    <i class="fa fa-tripadvisor"></i>
 
                                 </a>
                             </li>
