@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/rps-reservation.css">
     <link rel="stylesheet" href="./CSS/reservation.css">
+    <link rel="stylesheet" href="./CSS/reservation-responsive.css">
     <link rel="stylesheet" href="./CSS/jquery.back-to-top.css">
     <title>Lemar | Reservation</title>
 </head>
@@ -36,14 +37,14 @@
                 <div class="header-container">
                     <div class="container-section">
                         <div class="section-items">
-                            <div class="section-item col-third">
+                            <div class="section-item col-third section-phone">
                                 <i class="fa-solid fa-phone fl"></i>
                                 <span class="fl">+1 800 603 6035</span>
                             </div>
-                            <div class="section-item col-third">
+                            <div class="section-item col-third section-logo">
                                 <img src="./Images/Reservation/logo2.png" alt="">
                             </div>
-                            <div class="section-item col-third">
+                            <div class="section-item col-third section-infor">
                         
                                 <a class="fr" href="">
                                     <span class="iconify" data-icon="fa:tripadvisor"></span>
@@ -61,7 +62,13 @@
                 </div>
 
                 <div class="nav" id="sectionid">
-                    <ul>
+                    <div class="nav-close" id="btn-close">
+                        <i class="fa-solid fa-xmark" style="color: #fff;"></i>
+                    </div>
+                    <div class="nav-icon" id="btn-open">
+                        <i class="fa-solid fa-bars" style="color: #fff; "></i>
+                    </div>
+                    <ul id="navigation">
                         <li class="nav-item">
                             <a href="index.html">Home</a>
                         </li>
@@ -96,7 +103,7 @@
             </div>
             <div class="reservation">
                 <div class="reservation-text">
-                    <div class="text-tittle">
+                    <div id="thaydoi" class="text-tittle">
                         Make a Reservation
                     </div>
                     <div class="text-content">
@@ -110,36 +117,46 @@
                     <div class="row">
                         <div class="col-half form-col">
                             <div class="item-form fr">
+                                <i class="fa-solid fa-file-signature" style="color:rgb(118, 198, 235);font-size:20px"></i>
+                                <input id="ip-name" type="text" placeholder="Name"
+                                    style=" font-size: 1.125rem; border:none; outline:none;color: #7a7879;" />
+                            </div>
+                            <div class="item-form fr">
                                 <i class="fa-regular fa-calendar" style="color:rgb(118, 198, 235);font-size:20px"></i>
-                                <input type="text" placeholder="11/04/2020"
+                                <input id="ip-day" type="text" placeholder="11/04/2020"
                                     style=" font-size: 1.125rem; border:none; outline:none;color: #7a7879;" />
                             </div>
                             <div class="item-form fr">
                                 <i class="fa-solid fa-user-group" style="color:rgb(118, 198, 235); font-size:17px"></i>
-                                <input type="text" placeholder="2 persons"
+                                <input id="ip-people" type="text" placeholder="2 persons"
                                     style=" font-size: 1.125rem;border:none;outline:none;color: #7a7879;" />
-                            </div>
-                            <div class="fr mad-form-tag">
-                                Powered by OpenTable
                             </div>
                         </div>
                         <div class="col-half form-col">
-                            <div class="item-form">
-                                <i class="fa-regular fa-clock" style="color:rgb(118, 198, 235);font-size:20px"></i>
-                                <input type="text" placeholder="7:00 PM"
+                            <div class="item-form fl">
+                                <i class="fa-solid fa-phone" style="color:rgb(118, 198, 235);font-size:20px"></i>
+                                <input id="ip-phone-number" type="text" placeholder="Phone Number"
                                     style="font-size: 1.125rem; border:none; outline:none; color: #7a7879; " />
                             </div>
-                            <div class="item-form">
-                                <button class="btn-big" style="border: none;">Book a Table</button>
+                            <div class="item-form fl">
+                                <i class="fa-regular fa-clock" style="color:rgb(118, 198, 235);font-size:20px"></i>
+                                <input id="ip-hour" type="text" placeholder="7:00 PM"
+                                    style="font-size: 1.125rem; border:none; outline:none; color: #7a7879; " />
                             </div>
+                            <div class="item-form fl">
+                                <button id="confirm" class="btn-big" style="border: none;">Book a Table</button>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="mad-form-tag">
+                            Powered by OpenTable
                         </div>
                         <div class="clear"></div>
                     </div>
                 </div>
             </div>
             <div class="parallax-window" data-parallax="scroll" data-image-src="./Images/Background/1920x999_bg1.jpg"
-                style="left: -100.4px; right: -100.4px; min-width: 1024px;
-            margin-top: 200px;">
+                style="left: -100.4px; right: -100.4px;">
             </div>
             <div class="information">
                 <h2>Order by Phone</h2>
@@ -281,6 +298,7 @@
         <a href="#" class="bck"></a>
 
     </div>
+    <script src="./JS/oder-admin.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"

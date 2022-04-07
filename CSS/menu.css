@@ -398,3 +398,18 @@ section {
 .copyrights > a:hover{
   border-bottom: 1px solid #6dcbff;
 }
+.button-nav{
+  position: relative;
+  text-align: center;
+  display: none;
+}
+.button-nav button{
+  padding: 15px 20px 15px 20px;
+  background-color: #57a2cc;
+  cursor: pointer;
+  border: none;
+}
+.button-nav i {
+  font-size: 20px;
+  color: #ffffff;
+}

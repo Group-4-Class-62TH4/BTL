@@ -1,0 +1,433 @@
+@media screen and (max-width: 1480px){
+    .body{
+        width: 100%;
+    }
+    .mad-content{
+        width: 100%;
+    }
+    .btn-big{
+        color: green;
+    }
+    .content-img{
+        width: 100%;
+        /* margin-left: -80px; */
+        margin-left: -80px;
+        padding: auto;
+    }
+    .content p{
+        width: 45%;
+    }
+    .background-map-left{
+        width: 100%;
+    }
+    .google-map-page{
+        padding-left: 10px;
+        width: 100%;
+    }
+    .google-map-calendar{
+        margin-left: 850px;
+    }
+
+}
+@media screen and (max-width: 1380px) {
+    .body{
+        width: 100%;
+    }
+    .mad-content{
+        width: 100%;
+    }
+    .btn-big{
+        color: blue;
+    }
+    .content-img{
+        width: 100%;
+        /* margin-left: -80px; */
+        margin-left: -150px;
+        padding: auto;
+    }
+}
+/* PC */
+@media only screen and ( max-width: 1280px ){
+    body{
+        width: 100%;
+    }
+    .form-group{
+        width: 100%;
+    }
+    .form-icon input{
+        width: 50%; 
+    }
+    .mad-content{
+        width: 100%;
+    }
+    .header-content h2{
+        width: 50%;
+    }
+    .content p{
+        width: 40%;
+    }
+    .title-menu{
+        width: 100%;
+    }
+    .content-img{
+        width: 100%;
+        margin-left: -220px;
+        padding: auto;
+    }
+
+
+
+    .img3 img{
+        height: 140% !important;
+        width: 140% !important;
+    }
+    .img2{
+        height: 40% !important;
+        width: 40% !important;
+        margin-left: 500px;
+        margin-top: -550px;
+    }
+    .img1 img{
+        height: 40% !important;
+        width: 140% !important;
+    }
+    .google-map-calendar{
+        margin-left: 750px;
+    }
+    .parallax-title {
+        margin-left: 320px;
+        
+    }
+
+
+
+
+
+    .btn-big{
+        color: yellow;
+    }
+
+}
+@media screen and (max-width: 1180px){
+    .content-img{
+        width: 100%;
+        margin-left: -150px;
+        padding: auto;
+    }
+    .img2{
+        margin-top: -450px;
+    }
+    .google-map-page{
+        display: wrap;
+    }
+    .background-map-left{
+        width: 100%;
+    }
+    .google-map iframe{
+        width: 85%;
+        margin-left: 100px;
+    }
+    .google-map-calendar{
+        margin-top: 150px;
+        margin-left: 100px;
+        height: 300px;
+        width: 85%;
+        border: none;
+    }
+    .calendar-img img{
+        margin-left: 470px;
+    }
+    .calendar-time ul{
+        display: flex;
+    }
+    .calendar-time ul li{
+        padding-right: 25px;
+    }
+    .page-map-contract{
+        margin-top: 450px;
+    }
+
+
+    .btn-big{
+        color: black;
+    }
+
+}
+@media screen and (max-width: 1080px){
+    .container_wrap.grid.wide{
+        margin-left: 30px;
+    }
+    .img2{
+        margin-top: -350px;
+    }
+    .slider-information-footer{
+        margin-top: 80px;
+    }
+    .google-map-icon{
+        text-align: center;
+        margin-left: -50px;
+    }
+    .calendar-img img{
+        margin-left: 400px;
+    }
+    .contract-info{
+        padding-left: 100px;
+    }
+    .parallax-title {
+        margin-left: 200px;
+        
+    }
+    .parallax-logo{
+        margin-left: -120px;
+        padding-right: 0;
+    }
+    .parallax-lcon-img > a > img{
+        font-size: 10px;
+    }
+
+
+
+    .btn-big{
+        color: aqua;
+    }
+}
+/* tablet */
+@media only screen and ( max-width: 1024px){
+    body{
+        width: 100% !important;
+    }
+
+    .container_wrap.grid.wide{
+        margin: 0 auto;
+    }
+    .form-wrap{
+        width: 100%;
+    }
+    .form-group{
+        width: 150%;
+    }
+    .form-icon .l-3.c-4.m-4{
+        width: 300px;
+    }
+    .form-button button {
+        width: 165% !important;
+    }
+    
+    .mad-form-tag{
+        margin-top: 90px;
+        margin-left: -520px;
+    }
+    .header-content h2{
+        width: 100%;
+        margin-left: 100px !important;
+    }
+    .content p{
+        width: 70%;
+        margin-left: 140px !important;
+    }
+    .content img{
+        margin-left: 140px !important;
+    }
+    .content-img{
+        margin-left: 140px !important;
+    }
+    .img3 {
+        margin-top: 100px !important;
+        width: 50%;
+        margin: 0;
+
+    }
+    .img2{
+        position: relative;
+        border: none;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+    .img2 img{
+        width : 175% !important;
+    }
+    
+    .img1{
+        margin-top: 0;
+        margin-left: 0;
+        width: 50%;
+        margin-top: 40px;
+    }
+    .parallax-title {
+        margin-left: 100px;
+        
+    }
+    .slider-information-footer{
+        margin-top: 180px;
+    }
+    .google-map iframe{
+        width: 85%;
+        margin-left: 70px;
+    }
+    .google-map-calendar{
+        margin-top: 150px;
+        margin-left: 70px;
+        height: 300px;
+        width: 85%;
+        border: none;
+    }
+    .google-map-icon{
+        text-align: center;
+        margin-left: -200px;
+    }
+    .calendar-info{
+        height: 400px;
+    }
+    .calendar-info h2{
+        margin-left: 70px;
+    }
+    .contract-info{
+        margin-left: -70px;
+    }
+    .btn-big{
+        color: red;
+    }
+}
+@media only screen and (max-width: 820px){
+    body {
+        width: 100% !important;
+    }
+    .header-content h2{
+        width: 100%;
+        margin-left: 50px !important;
+    }
+    .content p{
+        width: 70%;
+        margin-left: 70px !important;
+    }
+    .content img{
+        margin-left: 70px !important;
+    }
+    .content-img{
+        margin-left: 110px !important;
+    }
+    .parallax-title{
+        margin-left: 30px;
+        
+    }
+    /* .header-item-button {
+        text-align: center;
+    } */
+    .btn-big{
+        color: brown;
+    }
+    
+}
+/* mobile */
+@media only screen and ( max-width: 740px){
+    body{
+        width: 100% !important;
+        overflow-x: hidden;
+    }
+    .page-wrapper{
+        max-width: 100%;
+    }
+    .mad-form-tag{
+        margin-top: 90px;
+        margin-left: -500px;
+    }
+    .slider-information-footer{
+        margin-top: 250px;
+    }
+    .google-map-icon{
+        text-align: center;
+        margin-left: -220px;
+    }
+    .calendar-info > h4 {
+        padding-top: 25px;
+        margin-left: 20px;
+
+    }
+    .parallax-title{
+        margin-left: 10px;
+        
+    }
+    .parallax-logo {
+        margin-top: 100px;
+        padding-left: 130px;
+        
+    }
+    .menu-item{
+        width: 100% !important; 
+    }
+
+
+    .btn-big{
+        color: pink;
+    }
+    
+}
+@media only screen and (max-width: 640px){
+    body{
+        width: 100% !important;
+        overflow-x: hidden;
+    }
+    .mad-form-tag{
+        margin-top: 90px;
+        margin-left: -420px;
+    }
+    .header-content h2{
+        width: 100%;
+        margin-left: 10px !important;
+    }
+    .content-img{
+        margin-left: 80px !important;
+    }
+    .title-menu > p {
+        width: 90%;
+    }
+    .mad-menu{
+        padding: 0;
+        width: 100% !important; 
+    }
+    .menu-item{
+        padding: 0 !important;
+        width: 90% !important; 
+    }
+    figure {
+        text-align: left;
+        margin-left: 35px;
+    }
+    .slider-content-left {
+        margin-left: 10px;
+    }
+    .slider-content-right{
+        display: none;
+    }
+    .slider-information{
+        width: 100%;
+    }
+    .slider-information-footer{
+        margin-top: 50px;
+    }
+    .google-map-icon{
+        text-align: center;
+        margin-left: -270px;
+    }
+    .google-map-calendar {
+        height: 330px;
+    }
+    .contract-info{
+        padding-top: 20px;
+    }
+    .parallax-title{
+        top: 10px;
+        margin-left: 0;
+        
+    }
+    .parallax-logo{
+        margin-left: -30px;
+        padding-right: 0;
+    }
+    .nav-bar > ul > li {
+        padding-right: 20px;
+    }
+    .btn-big{
+        color: rgb(18, 241, 63);
+    }
+}

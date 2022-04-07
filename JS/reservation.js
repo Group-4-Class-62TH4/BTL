@@ -13,6 +13,14 @@ function scrollFunction() {
       document.getElementById("sectionid").style.background = "none";
     }
   }
-  $(".parallax-window").parallax({
-    imageSrc: "./Images/Background/1920x999_bg1.jpg",
-  });
+
+  document.getElementById('btn-open').onclick = function(){
+    document.getElementById("navigation").style.display = "block";
+    document.getElementById('btn-close').style.display = "block";
+    document.getElementById("btn-open").style.display = "none";
+  };
+  document.getElementById('btn-close').onclick = function(){
+    document.getElementById("navigation").style.display = "none";
+    document.getElementById('btn-close').style.display = "none";
+    document.getElementById("btn-open").style.display = "block";
+  };
