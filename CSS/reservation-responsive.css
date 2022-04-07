@@ -1,0 +1,109 @@
+@media (min-width: 741px){
+    .section-items .section-item{
+        float: left;
+    }
+}
+@media (max-width: 1024px) {
+    .social-icon > ul{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 740px){
+    .container-section{
+        padding: 0;
+    }
+    .container-section .section-items{
+        font-size: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+    .section-items .section-item{
+        width: 50%;
+        max-width: 50%;
+        height: 100%;
+        display: inline-block;
+    }
+    /* .section-item a{
+        margin-right: 10px;
+    } */
+    .section-phone{
+        font-size: 14px;
+        padding: 20px 0 20px 5%;
+        width:5 0%;
+    }
+    .section-logo{
+        font-size: 14px;
+        padding: 20px 0;
+        width:50%;
+    }
+    .section-logo img {
+        width: 110px;
+        height: 50px;
+    }
+    .section-infor{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section-infor a{
+        padding: 5%;
+        float: none;
+    }
+    #navigation{
+        width: 100%;
+        height: 295px;
+        background: #00283f;
+        display: none;
+        padding: 50px 0;
+    }
+    #navigation li{
+        display: block;
+        padding: 8px 0;
+    }
+    .nav-close,
+    .nav-icon{
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;
+        height: 60px;
+    }
+    #btn-close{
+        display: none;
+    }
+    .nav-close i,
+    .nav-icon i{
+        width: 20px;
+        height: 20px;
+    }
+    .nav-close:hover,
+    .nav-icon:hover{
+        cursor: pointer;
+    }
+    #btn-open{
+        display: block;
+    }
+    .header-content{
+        padding: 0 10px;
+    }
+    .page-title{
+        font-size: 48px;
+        line-height: 1;
+    }
+    .form-reservation .form-col{
+        width: 100%;
+    }
+    .form-reservation .form-col,
+    .form-col .item-form{
+        float: none;
+    }
+    .form-col .item-form{
+        width: 100%;
+    }
+    #page-footer{
+        text-align: center;
+    }
+    #page-footer .widget{
+        width: 100%;
+        float: none;
+    }
+}
