@@ -37,3 +37,42 @@ body{
     color: #040716;
     text-decoration: none
 }
+.menu-admin{
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 1224px;
+}
+.menu-info h2{
+    padding-bottom: 20px;
+}
+.info-button{
+    margin-bottom: 20px;
+    padding: 5px;
+    border: none;
+    background-color: #59bdf7;
+    color: #fff;
+    cursor: pointer;
+}
+.menu-info th{
+    padding-right: 120px;
+}
+.menu-info tr{
+    border-bottom: 2px solid black;
+}
+.menu-info td{
+    padding-top: 30px;
+}
+.update-menu{
+    padding: 10px;
+    border: none;
+    background-color: #52cc5e;
+    color: #fff;
+    cursor: pointer;
+}
+.delete-menu{
+    padding: 10px;
+    border: none;
+    background-color: #d72b2b;
+    color: #fff;
+    cursor: pointer;
+}

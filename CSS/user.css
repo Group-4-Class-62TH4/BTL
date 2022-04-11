@@ -41,29 +41,21 @@ body{
     margin-top: 60px;
     margin-left: 300px;
 }
-input{
-    width: 60vw;
-    height: 35px;
-    border-radius: 5px;
+.table {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content:center;
+    margin-bottom: 30px;
 }
-.number{
-    background-color: #ebecec;
-    margin-bottom: 10px;
-}
-.username{
-    margin-bottom: 10px;
-}
-.email{
-    margin-bottom: 10px;
-}
-.password{
-    margin-bottom: 10px;
+.table input{
+    margin-bottom: 15px;
+
 }
 .user-control{
-    width: 60vw;
-    text-align: center;
+    margin-left: 200px;
 }
-
 .btn-add{
     background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
 }
@@ -126,21 +118,28 @@ input{
     border-radius: 5px;
 }
 
-.table-user{
-    margin-top: 10px;
-    margin-left: 300px;
-    height: 40px;
-    width: 60vw;
-    background-color: rgba(93,94,98,1);
-}
-.table-user th{
-    color: #fff;
-}
-.table-info{
-    margin-left: 300px;
-    /* width: 60vw; */
-}
-.table-info th{
-    padding-right: 135px;
-    text-align: left;
-}
+.parent {
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 2fr) 1fr 1fr; 
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    padding-left: 50px;
+    }
+    .parent .header {
+        background-color: rgba(93,94,98,1);
+        height:50px;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        color:#fff;
+    }
+
+    .parent .content {
+        background-color: #fff;
+        
+        height:50px;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        color:black;
+    }

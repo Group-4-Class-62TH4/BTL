@@ -17,7 +17,6 @@ var users = [
 ];
 
 function Login() {
-<<<<<<< HEAD
   event.preventDefault();
   var username = myForm.username.value;
   var password = myForm.password.value;
@@ -35,26 +34,6 @@ function Login() {
   } else {
     alert("Vui long nhap lai Username hoac Password");
   }
-=======
-        event.preventDefault();
-       var username = myForm.username.value;
-       var password = myForm.password.value;
-    
-       var val = check_user(username, password, users);
-       if (val != false) {
-           var date = new Date();
-           exp_date = date.getTime() + 10 * 24 * 60 * 60 * 1000;
-           date.setTime(exp_date);
-           document.cookie = "username=" + val.username + ";expires=" + date;
-           document.cookie = "permission=" + val.permission + ";expires=" + date;
-           if (val.permission == "admin") {
-               location.href = "usersManage.html";
-           } 
-       } else {
-           alert("Vui long nhap lai Username hoac Password");
-       }
-       
->>>>>>> f95f665b23fcfaade4a81d1fb98f8780814befa4
 }
 
 function check_user(username, password, users) {

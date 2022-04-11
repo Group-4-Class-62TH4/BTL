@@ -5,9 +5,6 @@
     .mad-content{
         width: 100%;
     }
-    .btn-big{
-        color: green;
-    }
     .content-img{
         width: 100%;
         /* margin-left: -80px; */
@@ -35,9 +32,6 @@
     }
     .mad-content{
         width: 100%;
-    }
-    .btn-big{
-        color: blue;
     }
     .content-img{
         width: 100%;
@@ -100,13 +94,6 @@
     }
 
 
-
-
-
-    .btn-big{
-        color: yellow;
-    }
-
 }
 @media screen and (max-width: 1180px){
     .content-img{
@@ -147,11 +134,6 @@
         margin-top: 450px;
     }
 
-
-    .btn-big{
-        color: black;
-    }
-
 }
 @media screen and (max-width: 1080px){
     .container_wrap.grid.wide{
@@ -187,9 +169,6 @@
 
 
 
-    .btn-big{
-        color: aqua;
-    }
 }
 /* tablet */
 @media only screen and ( max-width: 1024px){
@@ -284,9 +263,6 @@
     .contract-info{
         margin-left: -70px;
     }
-    .btn-big{
-        color: red;
-    }
 }
 @media only screen and (max-width: 820px){
     body {
@@ -309,12 +285,6 @@
     .parallax-title{
         margin-left: 30px;
         
-    }
-    /* .header-item-button {
-        text-align: center;
-    } */
-    .btn-big{
-        color: brown;
     }
     
 }
@@ -356,16 +326,12 @@
         width: 100% !important; 
     }
 
-
-    .btn-big{
-        color: pink;
-    }
-    
 }
 @media only screen and (max-width: 640px){
     body{
         width: 100% !important;
         overflow-x: hidden;
+        overflow-y: 640px;
     }
     .mad-form-tag{
         margin-top: 90px;
@@ -426,8 +392,5 @@
     }
     .nav-bar > ul > li {
         padding-right: 20px;
-    }
-    .btn-big{
-        color: rgb(18, 241, 63);
     }
 }

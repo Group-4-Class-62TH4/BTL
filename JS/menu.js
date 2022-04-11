@@ -15,22 +15,18 @@ function scrollFunction() {
     document.getElementById("header-nav").style.background = "none";
   }
 }
-document.getElementById("btn-open").onclick= function(){
-  document.getElementById("header-nav").style.display="block";
-  document.getElementById("header-nav").style.background = "#00283f";
-}
 
-
-
-// function myFunction() {
-//   document.getElementById("header-nav").classList.toggle("show");
+// document.getElementById("btn-open").onclick= function(){
+//   document.getElementById("header-nav").style.display="block";
+//   document.getElementById("header-nav").style.background = "#00283f";
 // }
 
-// window.onclick = function(e) {
-//   if (!e.target.matches('#btn-open')) {
-//   var myDropdown = document.getElementById("header-nav");
-//     if (myDropdown.classList.contains('show')) {
-//       myDropdown.classList.remove('show');
-//     }
-//   }
-// }
+
+
+// $(document).ready(function(){
+//   $("btn-open").click(function(){
+//     $("header-nav").slideToggle();
+//   });
+
+
+

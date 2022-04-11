@@ -38,37 +38,34 @@
             </div>
         </div>
         <div class="user-info">
-            <input class="number" type="text" placeholder="1">
-            <input class="username" type="text" placeholder = "username">
-            <input class="email" type="email" placeholder = "email"> 
-            <input class="password" type="password" placeholder = "password">
+            <div class="table">
+                <lable class="">Name</lable>
+                <input type="text" class="inputTable"/>
+                <lable class="">Email</lable>
+                <input type="text" class="inputTable"/>
+                <lable class="">Password</lable>
+                <input type="text" class="inputTable"/>
+                <lable class="">Position</lable>
+                <input type="text" class="inputTable"/> 
+            </div>
             <div class="user-control">
-                <button class="btn-add">Add</button>
-                <button class="btn-read">Read</button>
-                <button class="btn-update">Update</button>
-                <button class="btn-delete">Delete</button>
+                <button class="btn-add" id="add">Add</button>
+                <button class="btn-read" id="reset">Read</button>
+                <button class="btn-update" id ="update">Update</button>
+                <button class="btn-delete" id="delete">Delete</button>
             </div>
         </div>
-        <table class="table-user">
-            <tr>
-                <th>#</th>
-                <th>Username</th>
-                <th>Email</th>
-                <th>Password</th>
-                <th>Edit</th>
-                <th>Delete</th>
-            </tr>
-        </table>\
-        <table class="table-info">
-            <tr>
-                <th>1</th>
-                <th style="text-align: center;">admin</th>
-                <th>admin@</th>
-                <th>123</th>
-                <th><i class="fa-solid fa-pen-to-square"></i></th>
-                <th><i class="fa-solid fa-trash"></i></th>
-            </tr>
-        </table>
+        <div class="parent" style="margin-top:50px">
+            <div class="header">Name</div>
+            <div class="header">Password</div>
+            <div class="header">Email</div>
+            <div class="header">Position</div> 
+        </div>
+        
+        <div class="parent" id="ok"> 
+        </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./JS/user.js"></script> 
 </body>
 </html>
