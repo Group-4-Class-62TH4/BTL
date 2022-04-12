@@ -14,8 +14,12 @@ var users = [
     password: "123",
     permission: "admin",
   },
+  {
+    username: localStorage.getItem('username'),
+    password: localStorage.getItem('password'),
+    permission: "admin",
+  }
 ];
-
 function Login() {
   event.preventDefault();
   var username = myForm.username.value;
