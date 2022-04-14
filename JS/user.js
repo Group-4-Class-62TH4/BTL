@@ -41,6 +41,10 @@ $(document).ready(function () {
       });
       localStorage.setItem("listUser", JSON.stringify(listAccount));
       render();
+      $("#name").val("");
+      $("#email").val("");
+      $("#pass").val("");
+      $("#number").val("");
     }
   
   });

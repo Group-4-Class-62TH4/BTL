@@ -25,5 +25,6 @@ function addRow(){
         $("#ip-people").val('');
         $("#ip-phone-number").val('');
         $("#ip-hour").val('');
+        alert("successful table reservation ")
     }
 }
