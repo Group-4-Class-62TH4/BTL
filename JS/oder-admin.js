@@ -11,14 +11,19 @@ function addRow(){
     row.push(ipHour);
     row.push(ipDay);
     row.push(ipPeople);
-    dataList.push(row);
-    console.log(row);
-    console.log(dataList);
-    localStorage.setItem('data', dataList);
-    // JSON.stringify(dataList)
-    $("#ip-name").val('');
-    $("#ip-day").val('');
-    $("#ip-people").val('');
-    $("#ip-phone-number").val('');
-    $("#ip-hour").val('');
+    if(ipName == "" || ipDay == "" || ipPeople == "" || ipPhoneNumber == "" || ipHour == ""){
+        alert("Please fill in all information")
+    }
+    else{
+        dataList.push(row);
+        console.log(row);
+        console.log(dataList);
+        localStorage.setItem('data', dataList);
+        // JSON.stringify(dataList)
+        $("#ip-name").val('');
+        $("#ip-day").val('');
+        $("#ip-people").val('');
+        $("#ip-phone-number").val('');
+        $("#ip-hour").val('');
+    }
 }
