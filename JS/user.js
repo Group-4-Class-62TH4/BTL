@@ -13,23 +13,36 @@ var listAccountEdit =
     ? JSON.parse(localStorage.getItem("listEdit"))
     : localStorage.setItem("listEdit", [[]]);
 var handleIndexEdit = 0;
-// $(window).load(function(){
-//     localStorage.getItem("listRemove") && localStorage.setItem("listRemove",[])
-//     localStorage.getItem("listEdit") && localStorage.setItem("listEdit",[])
-// })
+
+window.onload = function()
+    {
+    localStorage.setItem("listUser",JSON.stringify([]))
+    localStorage.setItem("listEdit",JSON.stringify([]))
+    localStorage.setItem("listRemove",JSON.stringify([]))
+    };
+
 $(document).ready(function () {
   $("#add").click(function () {
-    listAccount.push({
-      id: JSON.parse(localStorage.getItem("listUser"))
-        ? JSON.parse(localStorage.getItem("listUser")).length
-        : 0,
-      userName: $(".inputTable").eq(0).val(),
-      email: $(".inputTable").eq(1).val(),
-      passWord: $(".inputTable").eq(2).val(),
-      link: $(".inputTable").eq(3).val(),
-    });
-    localStorage.setItem("listUser", JSON.stringify(listAccount));
-    render();
+    var name = $("#name").val();
+    var email = $("#email").val();
+    var pass = $("#pass").val();
+    var number = $("#number").val();
+    if(name == "" || email == "" || pass == "" || number == ""){
+      alert("Please fill in all information")
+    }else{
+      listAccount.push({
+        id: JSON.parse(localStorage.getItem("listUser"))
+          ? JSON.parse(localStorage.getItem("listUser")).length
+          : 0,
+        userName: $(".inputTable").eq(0).val(),
+        email: $(".inputTable").eq(1).val(),
+        passWord: $(".inputTable").eq(2).val(),
+        link: $(".inputTable").eq(3).val(),
+      });
+      localStorage.setItem("listUser", JSON.stringify(listAccount));
+      render();
+    }
+  
   });
   $("#delete").click(function () {
     console.log("ok");
@@ -136,3 +149,4 @@ function render() {
   });
   $("#ok").append(cobra);
 }
+
